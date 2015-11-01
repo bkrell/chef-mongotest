@@ -7,3 +7,5 @@ long_description 'Installs/Configures mongotest'
 version '0.1.0'
 
 depends 'mongodb', '~> 0.16.2'
+depends 'selinux', '~> 0.9.0'
+depends 'iptables', '~> 1.0.0'
